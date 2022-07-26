@@ -1,3 +1,12 @@
+# ByteLearn Assignment Task (Blog App)
+
+### Developed by Kartik Gupta [guptakartik1811@gmail.com](mailto:guptakartik1811@gmail.com)
+### Live Link : [Live Link 1 (Surge)](https://available-tail.surge.sh/) [Live Link 2 (Netlify)(backup*)](https://bytlearnbykartik.netlify.app/)
+### Package manager : yarn
+### State Management used : Redux
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,94 @@
+
+.list-item {
+  display: flex;
+  padding: 2%;
+  background-color: #023e8a;
+  color: #f1f2f5;
+  
+  .text {
+    text-align: left;
+    width: 70%;
+
+    .heading {
+      font-size: 1.2em;
+      font-weight: 600;
+    }
+    .categories {
+      font-size: 0.8em;
+      color: rgb(216, 213, 213);
+    }
+  }
+
+  .buttons {
+    width: 30%;
+
+    .view {
+      width: 33%;
+      height: 100%;
+      background-color: #f1f2f5;
+      color: #0077b6;
+    }
+    .view:hover{
+      color:#f1f2f5;
+      background-color: #0077b6;
+    }
+
+    .edit {
+      width: 33%;
+      height: 100%;
+      background-color: #f1f2f5;
+      color: rgb(161 161 3);
+    }
+    .edit:hover{
+      color: #f1f2f5;
+      background-color: rgb(161 161 3);
+    }
+
+    .delete {
+      width: 33%;
+      height: 100%;
+      background-color: #f1f2f5;
+      color: red;
+    }
+    .delete:hover {
+      background-color: red;
+      color: #f1f2f5;
+    }
+  }
+}
+
+.view-section {
+  padding: 2% 2%;
+  border: 2px dashed #023e8a;
+  background-color: #90e0ef;
+}
+
+.edit-section {
+  background-color: #0077b6;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+
+  input {
+    margin: 1% 0% 2% 5%;
+    padding: 0.5% 2%;
+    width: 70%;
+    background-color: #ade8f4;
+    outline: none;
+    border: none;
+    color: black;
+    font-size: 1.4em;
+  }
+
+  button {
+    width: 10%;
+    margin-left: 5%;
+    padding: 1% 2%;
+    color: rgb(161 161 3);
+    background-color: #f1f2f5;
+  }
+  button:hover {
+    color: #f1f2f5;
+    background-color: rgb(161 161 3);
+  }
+}
